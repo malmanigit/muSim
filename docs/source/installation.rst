@@ -1,9 +1,7 @@
 Installation
 ============
 
-[!NOTE]
-
-We highly recommend a linux system for easy installation.
+.. note:: We highly recommend a linux system for easy installation.
 
 ## Installation 
 
