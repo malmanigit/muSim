@@ -2,7 +2,7 @@ Basic Usage for Monkey Cycling Task
 -----------------------------------
 -----------------------------------
 
-1. To train the controller, run the following in terminal:
+To train the muSim controller for the monkey cycling task, run the following in terminal:
 
    ``python append_musculo_targets.py``
 
@@ -13,4 +13,5 @@ Basic Usage for Monkey Cycling Task
    This will save the controller in the ./checkpoint file with training iterations. The highest reward should reach >= 55000 for kinematic accuracy.
 
    The episode reward with iterations should look like this:
-   (There may be slight variations due to random seed but trend should look similar)
+
+   .. figure:: ./reward_curve.png
