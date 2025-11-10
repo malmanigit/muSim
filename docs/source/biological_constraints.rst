@@ -3,6 +3,8 @@ Biological Constraints
 
 Biological constraints are implemented as neural regularizations or constraints on muscle effort utilized.
 
+Specify the following parameters related to biological constraints in the ``./configs/config.txt`` file.
+
 Neural Regularizations
 ----------------------
 
@@ -25,3 +27,10 @@ weighting with loss term minimizing the synaptic weights for muSim/nuSim
 **zeta_nusim**
 
 weighting with loss for nuSim constraining a sub-population of RNN units to experimentally recorded neurons for nuSim
+
+Constraints on Muscle Effort Utilized
+-------------------------------------
+
+**alpha_muscle**
+
+weighting term in the reward function enforcing minimization of the muscle effort utilized.
