@@ -1,8 +1,9 @@
 Usage
 =====
 
-.. toctree:
+For training muSim RNN on Monkey Cycling Task
 
+.. toctree:
    basic_usage
 
 .. _basic_usage:
