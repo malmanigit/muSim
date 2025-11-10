@@ -1,6 +1,8 @@
 Usage
 =====
 
+.. toctree:
+
    basic_usage
 
 .. _basic_usage:
