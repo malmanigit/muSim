@@ -3,14 +3,16 @@ Usage
 
 **Basic Usage**
 
-For training muSim on Monkey Cycling Task
+For training muSim on Monkey Cycling Task:
+
    :doc:`basic_usage`
 
 **Advanced Usage**
 
-For training muSim on user-defined task and controller specifications, 
+For training muSim on user-defined task and controller specifications:
 
    1. **Input/Pre-training specification modules**
+
       :doc:`task_information`
 
       :doc:`experimental_data`
