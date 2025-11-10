@@ -25,7 +25,7 @@ Neural Data (optional)
 
 .. note::
 
-   If this step is omitted, various post-processing analyses which require recorded neural data such as CCA, will not run. nuSim training will also not proceed (nusim_data_path can also be specified in the configs.txt file).
+   If this step is omitted, various post-training *quantitative* analyses which require recorded neural data such as CCA, will not run. nuSim training will also not proceed (nusim_data_path can also be specified in the configs.txt file).
 
 Stimulus Data (optional)
 ------------------------
