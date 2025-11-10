@@ -1,6 +1,8 @@
 Usage
 =====
 
+   basic_usage
+
 .. _basic_usage:
 
 Basic Usage
