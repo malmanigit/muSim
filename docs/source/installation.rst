@@ -1,5 +1,6 @@
 Installation
 ============
+
 .. note::
 
 We highly recommend a linux system for easy installation.
