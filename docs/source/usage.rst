@@ -8,6 +8,17 @@ For training muSim on Monkey Cycling Task
 
 **Advanced Usage**
 
+For training muSim on user-defined specifications, 
+
+   1. **Input/Pre-training specification modules**
+      :doc: 'task_information'
+      :doc: 'experimental_data'
+      :doc: 'musculo_details'
+      :doc: 'biological_constraints'
+      :doc: 'training_specs'
+
+   2. **Output/Post-training analyses modules**
+
 .. toctree::
 
    basic_usage
