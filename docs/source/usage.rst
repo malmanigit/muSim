@@ -8,10 +8,7 @@ For training muSim on Monkey Cycling Task
 
 **Advanced Usage**
 
-Contents
-========
-
-.. toctree:
+.. toctree::
 
    basic_usage
    task_information
