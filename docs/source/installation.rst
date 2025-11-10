@@ -3,7 +3,7 @@ Installation
 
 .. note:: We highly recommend a linux system for easy installation.
 
-** INSTALLATION **
+**INSTALLATION**
 
 1. Create a new environment using conda:
 
@@ -17,7 +17,7 @@ Installation
 If facing errors
 ----------------
 
-** Install MuJoCo 3.0 before proceeding **
+**Install MuJoCo 3.0 before proceeding**
 
 1. If you are on linux (and may apply to Mac as well), there will likely be additional packages necessary. Here is a list of possible packages:
 
