@@ -8,7 +8,7 @@ For training muSim on Monkey Cycling Task
 
 **Advanced Usage**
 
-For training muSim on user-defined specifications, 
+For training muSim on user-defined task and controller specifications, 
 
    1. **Input/Pre-training specification modules**
       :doc: 'task_information'
