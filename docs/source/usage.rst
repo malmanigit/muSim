@@ -1,9 +1,12 @@
 Usage
 =====
 
+**Basic Usage**
+
 For training muSim on Monkey Cycling Task
    :doc:`basic_usage`
 
+**Advanced Usaged**
 
 
 .. toctree:
@@ -14,4 +17,3 @@ For training muSim on Monkey Cycling Task
    musculo_details
    biological_constraints
    training_specs
-
