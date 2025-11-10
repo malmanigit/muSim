@@ -8,7 +8,7 @@ multiple musculoskeletal systems using deep reinforcement learning (DRL)
 and RNNs in order to capture the underlying dynamics used by the motor cortex 
 to generate movement.
 
-Check out the :doc:`installation` section to install necessary requirements, and :ref:`usage` 
+Check out the :doc:`installation` section to install necessary requirements, and :doc:`usage` 
 for setting up, training, and evaluating the resulting DRL algorithm.
 
 .. note::
