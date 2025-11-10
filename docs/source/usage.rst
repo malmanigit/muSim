@@ -6,7 +6,7 @@ Usage
 For training muSim on Monkey Cycling Task
    :doc:`basic_usage`
 
-**Advanced Usaged**
+**Advanced Usage**
 
 
 .. toctree:
