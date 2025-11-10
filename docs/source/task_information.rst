@@ -4,8 +4,8 @@ Task Information
 Kinematics:
 -----------
 
-Experimental Kinematics
-~~~~~~~~~~~~~~~~~~~~~~~
+Experimental/Task Kinematics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. Save the experimental kinematics in ``./kinematics_data/kinematics.pkl`` as a Python dict object with the following format
 
