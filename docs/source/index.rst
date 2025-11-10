@@ -23,3 +23,8 @@ Contents
    installation
    usage
       basic_usage
+      task_information
+      experimental_data
+      musculo_details
+      biological_constraints
+      training_specs
