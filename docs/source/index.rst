@@ -9,7 +9,7 @@ and RNNs in order to capture the underlying dynamics used by the motor cortex
 to generate movement.
 
 Check out the :doc:`installation` section to install necessary requirements, and :ref:`usage` 
-for setting up, traininig, and evaluating the resulting DRL algorithm.
+for setting up, training, and evaluating the resulting DRL algorithm.
 
 .. note::
 
