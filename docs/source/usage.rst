@@ -22,12 +22,3 @@ For training muSim on user-defined task and controller specifications,
       :doc:`training_specs`
 
    2. **Output/Post-training analyses modules**
-
-.. toctree::
-
-   basic_usage
-   task_information
-   experimental_data
-   musculo_details
-   biological_constraints
-   training_specs
