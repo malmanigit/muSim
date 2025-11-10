@@ -1,4 +1,4 @@
-Welcome to 𝜂𝜇Sim's documentation!
+Welcome to muSim's documentation!
 ===================================
 
 muSim/nuSim is a computational framework for predicting motor related
