@@ -3,7 +3,7 @@ Installation
 
 .. note:: We highly recommend a linux system for easy installation.
 
-## INSTALLATION
+# INSTALLATION
 
 1. Create a new environment using conda:
 
