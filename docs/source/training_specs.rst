@@ -5,15 +5,19 @@ Specify the following parameters in the ``./configs/configs.txt`` file for the s
 
 **model**
 
-The neural network model to use in the agent, can be ['rnn', 'gru']
+The neural network model to use in the muSim controller, can be ['rnn', 'gru']
 
 **hidden_size**
 
-The number of hidden units in the layers of the agent's neural network
+The number of hidden units in the RNN/Feedforward layers of the muSim controller
 
 **mode**
 
 The mode of simulation can be [train, test, SFE, sensory_pert, neural_pert, musculo_properties]
+
+Use 'train' for training and 'test' for testing the trained controller
+
+(Remaining parameters are discussed in the perturbation modules section).
 
 **RL_algorithm = 'SAC'**
 
