@@ -1,7 +1,7 @@
 Training Specifications
 =======================
 
-Specify the following parameters in the ``./configs/configs.txt`` file for the specification of the training algorithm.
+Specify the following parameters in the ``./configs/configs.txt`` file for specification of the training algorithm.
 
 **model**
 
