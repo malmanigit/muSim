@@ -24,9 +24,11 @@ Use 'train' for training and 'test' for testing the trained controller
 The RL algorithm can be either [SAC, DDPG, TD3] (Standard DRL algorithms)
 
 **cuda = True/False**
+
 Utilize GPU for training.
 
 **Other DRL specific parameters**
+
 **Default values are recommended as they lead to succesfull training**
 
 gamma = 0.99
