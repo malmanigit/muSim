@@ -57,7 +57,40 @@ An example for saving the experimental kinematics for the cycling task is given 
 
 Kinematic Preprocessing:
 ------------------------
+Adjust the following kinematic preprocessing parameters in the ``./configs/configs.txt`` file:
 
+**sim_dt**
+The timestep for the simulation: Keep 0 for default simulation timestep
+
+**frame_repeat**
+The frames/timepoints for which the same action should be repeated during training of the agent
+
+For finer movements user smaller frame_repeat. However, it will also increase the training time
+
+**n_fixedsteps**
+Number of fixedsteps in the beginning of the simulation. The target will remain at kinematic[timestep=0] for n_fixedsteps
+
+If a good initial position is found using CMA-ES / IK Optimization, n_fixedsteps = 25 is a good estimate. Otherwise increase
+
+if the starting reward does not increase with the training iterations.
+
+**timestep_limit**
+
+Timestep limit is max number of timesteps after which the episode will terminate.
+
+Multiple cycles of the same condition will be simulated if the timestep_limit > number of timsteps for that condition.
+
+**trajectory_scaling**
+
+Adjusts/scales the length of the trajectory
+
+Should be the same as num_markers/targets
+
+**center**
+
+Adjusts the starting point of the kinematics trajectory
+
+Should be the same as num_markers/targets, num_coords=3
 
 
 Sensory Feedback Preprocessing:
