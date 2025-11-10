@@ -11,15 +11,15 @@ For training muSim on Monkey Cycling Task
 For training muSim on user-defined task and controller specifications, 
 
    1. **Input/Pre-training specification modules**
-      :doc: 'task_information'
+      :doc:'task_information'
 
-      :doc: 'experimental_data'
+      :doc:'experimental_data'
 
-      :doc: 'musculo_details'
+      :doc:'musculo_details'
 
-      :doc: 'biological_constraints'
+      :doc:'biological_constraints'
 
-      :doc: 'training_specs'
+      :doc:'training_specs'
 
    2. **Output/Post-training analyses modules**
 
