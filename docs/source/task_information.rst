@@ -57,7 +57,7 @@ An example for saving the experimental kinematics for the cycling task is given 
 
 Kinematic Preprocessing:
 ------------------------
-Adjust the following kinematic preprocessing parameters in the ``./configs/configs.txt`` file:
+Adjust the following Kinematic Preprocessing Parameters in the ``./configs/configs.txt`` file:
 
 **sim_dt**
 
@@ -96,4 +96,63 @@ Should be of the same shape as num_markers/targets, num_coords=3
 
 Sensory Feedback Preprocessing:
 -------------------------------
+
+Adjust the following Sensory Feedback Preprocessing parameters in the ``./configs/configs.txt`` file:
+
+**stimulus_feedback = True/False**
+
+#Stimulus feedback consists of provided experimental stimulus data
+
+**proprioceptive_feedback = True/False**
+
+#Proprioceptive feedback consists of muscle lengths and velocities
+
+**muscle_forces = True/False**
+
+Muscle forces consist of appled muscle forces 
+
+**joint_feedback = True/False**
+
+Joint feedback consists of joint positions and velocities
+
+**visual_feedback = True/False**
+
+Visual feedback consists of x/y/z coordinates of the specified bodies in the model
+
+If visual_feedback is True, specify the names of the bodies from musculoskeletal_model.xml for which the feedback should be included
+
+**visual_feedback_bodies**
+
+Append the musculo bodies from which visual feedback should be included
+
+This list can also consist of targets/markers
+
+Append targetn-1 for visual feedback from targets/markers in the kinematics.pkl file
+
+'target0' corresponds to the visual feedback from the first target/marker, target1 to the second target/marker and so on
+
+**visual_distance_bodies**
+
+Specify the names of the bodies as tuples(separated by ; with no spaces) for which the visual distance should be included in the feedback
+
+Leave blank if the visual distance is not to be included in the feedback
+
+Visual distance between the bodies will be included
+
+e.g visual_distance_bodies = [[hand;target0], [elbow;target0]] will include the distance between the hand/elbow and first marker in sensory feedback
+
+**visual_velocity = []**
+
+Specify the names of the bodies for which the visual velocity should be included in the feedback
+
+Leave blank if the visual velocity is not to be included in the feedback
+
+Appends the absolute musculo body velocity, e.g. visual_velocity = [hand, target0]
+
+will include the xyz velocities of hand and target0
+
+**sensory_delay_timepoints**
+
+Specify the delay in the sensory feedback in terms of the timepoints
+
 
