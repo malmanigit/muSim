@@ -65,17 +65,15 @@ The timestep for the simulation: Keep 0 for default simulation timestep
 
 **frame_repeat**
 
-The frames/timepoints for which the same action should be repeated during training of the agent
+The frames/timepoints for which the same action should be repeated during training of the muSim controller.
 
-For finer movements user smaller frame_repeat. However, it will also increase the training time
+For finer movements user smaller frame_repeat. However, it will also sharply increase the training time.
 
 **n_fixedsteps**
 
-Number of fixedsteps in the beginning of the simulation. The target will remain at kinematic[timestep=0] for n_fixedsteps
+Number of fixedsteps in the beginning of the simulation. The target will remain at kinematic[timestep=0] for n_fixedsteps.
 
-If a good initial position is found using CMA-ES / IK Optimization, n_fixedsteps = 25 is a good estimate. Otherwise increase
-
-if the starting reward does not increase with the training iterations.
+If a good initial position is found using CMA-ES / IK Optimization, n_fixedsteps = 25 is a good estimate. Otherwise increase if the starting reward does not increase with the training iterations.
 
 **timestep_limit**
 
@@ -87,13 +85,13 @@ Multiple cycles of the same condition will be simulated if the timestep_limit > 
 
 Adjusts/scales the length of the trajectory
 
-Should be the same as num_markers/targets
+Should be the same shape as num_markers/targets
 
 **center**
 
 Adjusts the starting point of the kinematics trajectory
 
-Should be the same as num_markers/targets, num_coords=3
+Should be of the same shape as num_markers/targets, num_coords=3
 
 
 Sensory Feedback Preprocessing:
