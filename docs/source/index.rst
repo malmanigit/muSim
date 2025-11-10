@@ -1,7 +1,7 @@
 Welcome to 𝜂𝜇Sim's documentation!
 ===================================
 
-**𝜂𝜇Sim** is a methodology for predicting motor related
+muSim/nuSim is a computational framework for predicting motor related
 neural activity using recurrent neural newtorks (RNNs) and 
 complex musculoskeletal systems. This repo contains code to train
 multiple musculoskeletal systems using deep reinforcement learning (DRL)
