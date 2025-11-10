@@ -101,11 +101,11 @@ Adjust the following Sensory Feedback Preprocessing parameters in the ``./config
 
 **stimulus_feedback = True/False**
 
-#Stimulus feedback consists of provided experimental stimulus data
+Stimulus feedback consists of provided experimental stimulus data
 
 **proprioceptive_feedback = True/False**
 
-#Proprioceptive feedback consists of muscle lengths and velocities
+Proprioceptive feedback consists of muscle lengths and velocities
 
 **muscle_forces = True/False**
 
