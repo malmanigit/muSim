@@ -22,4 +22,4 @@ Contents
 
    installation
    usage
-   basic_usage
+      basic_usage
