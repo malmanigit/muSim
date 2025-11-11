@@ -32,3 +32,5 @@ Contents
    reward_spec
    musim_training
    musim_testing
+   qualitative_modules
+   quantitative_modules
