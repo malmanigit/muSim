@@ -37,4 +37,4 @@ For training muSim on user-defined task and controller specifications:
 
       :doc:`quantitative_modules`
 
-      
+      :doc:`pert_modules`
