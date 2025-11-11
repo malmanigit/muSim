@@ -23,4 +23,12 @@ For training muSim on user-defined task and controller specifications:
 
       :doc:`training_specs`
 
+      :doc:`movement_feasibility`
+
+      :doc:`reward_spec`
+
+      :doc:`musim_training`
+
+      :doc:`musim_testing`
+
    2. **Output/Post-training analyses modules**
