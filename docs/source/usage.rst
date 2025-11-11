@@ -34,3 +34,4 @@ For training muSim on user-defined task and controller specifications:
    2. **Output/Post-training analyses modules**
 
       :doc:`qualitative_modules`
+      :doc:`quantitative_modules`
