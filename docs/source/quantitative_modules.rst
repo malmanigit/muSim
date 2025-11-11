@@ -16,4 +16,4 @@ see ``./Analysis/LRA.ipynb``
 Procrustes Analysis
 ------------------
 
-see ``./Analysis/procrustes.ipynb``
+see ``./Analysis/Procrustes.ipynb``
