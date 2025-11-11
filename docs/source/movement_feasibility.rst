@@ -23,7 +23,7 @@ Inverse Kinematics
 
       This will use inverse kinematics (IK) to find the initial pose for the xml model to match the initial timepoint of the target kinematics.
 
-      If you see the output, ‘Initial Pose found and saved’, skip 1b.
+      If you see the output, ‘Initial Pose found and saved’, skip ii.
 
    b. Run:
 
