@@ -22,21 +22,13 @@ Contents
 
    installation
    usage
-      
-   :doc:`task_information`
-
-   :doc:`experimental_data`
-
-   :doc:`musculo_details`
-
-   :doc:`biological_constraints`
-
-   :doc:`training_specs`
-
-   :doc:`movement_feasibility`
-
-   :doc:`reward_spec`
-
-   :doc:`musim_training`
-
-   :doc:`musim_testing`
+   basic_usage
+   task_information
+   experimental_data
+   musculo_details
+   biological_constraints
+   training_specs
+   movement_feasibility
+   reward_spec
+   musim_training
+   musim_testing
