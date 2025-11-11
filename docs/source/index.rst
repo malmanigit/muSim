@@ -13,7 +13,7 @@ Check out the :doc:`usage` for setting up, training, and evaluating the resultin
 
 .. note::
 
-   This project is under active development. If you need any help with using muSim for your application, please report in the github issue section.
+   This project is under active development. If you need any help with using muSim for your application, please report in the GitHub Issues section.
 
 Contents
 --------
