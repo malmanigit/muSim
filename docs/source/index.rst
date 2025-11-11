@@ -34,3 +34,4 @@ Contents
    musim_testing
    qualitative_modules
    quantitative_modules
+   pert_modules
