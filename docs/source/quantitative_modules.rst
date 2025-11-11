@@ -6,15 +6,14 @@ We have provided the following post-training quantitative modules to quantify th
 Canonical Correlation Analysis
 ------------------------------
 
-see ``./CCA.ipynb``
+see ``./Analysis/CCA.ipynb``
 
 Linear Regression Analysis
 --------------------------
 
-see ``./LRA.ipynb``
+see ``./Analysis/LRA.ipynb``
 
 Procrustes Analysis
 ------------------
 
-see ``./procrustes.ipynb``
-
+see ``./Analysis/procrustes.ipynb``
