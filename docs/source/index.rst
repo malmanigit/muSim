@@ -3,7 +3,7 @@ Welcome to muSim's documentation!
 
 muSim/nuSim is a computational framework for predicting motor related
 neural activity using recurrent neural newtorks (RNNs) and 
-anatomically-accurate musculoskeletal systems. This repo contains modules to train musculoskeletal systems using deep reinforcement learning (DRL)
+anatomically-accurate musculoskeletal systems. This repository contains various modules to train musculoskeletal systems using deep reinforcement learning (DRL)
 and RNNs in order to capture the underlying dynamics executed by the motor cortex 
 to generate movement.
 
