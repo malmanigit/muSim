@@ -1,9 +1,7 @@
 Movement Feasibility using Inverse Kinematics and Evolutionary Algorithms
 =========================================================================
 
-.. note:
-
-These steps are not optional. muSim training will not proceed if the targets are not appended to the xml file (see 1., 2.)
+.. note:: These steps are not optional. muSim training will not proceed if the targets are not appended to the xml file (see 1., 2.)
 
 Inverse Kinematics
 ------------------
