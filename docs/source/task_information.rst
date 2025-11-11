@@ -156,6 +156,7 @@ will include the xyz velocities of hand and target0
 Specify the delay in the sensory feedback in terms of the timepoints
 
 **Preprocessing specific sensory feedback**
+
 Additionally, we have provided a shell for the user-specific pre-processing of the sensory feedback features.
 
 See ``./SAC/sensory_feedback_specs.py``
