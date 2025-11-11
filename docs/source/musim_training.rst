@@ -5,9 +5,9 @@ Training the uSim Controller using DRL
 --------------------------------------
 
 .. note: 
-Make sure DRL/SAC related parameters are specified correctly in the ``./configs/configs.txt`` file
+Make sure DRL algorithm related parameters are specified correctly in :doc:`training_specs`
 
-1. To train the uSim controller using the provided DRL algorithm, run:
+1. To train the muSim controller using the selected DRL algorithm, run:
 
    ``python main.py --config configs/configs.txt``
     
