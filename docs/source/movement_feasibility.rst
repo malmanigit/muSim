@@ -41,7 +41,7 @@ Inverse Kinematics
 
    ``python main --config configs/configs.txt --visualize True --mode test``
 
-   This will visualize the target trajectories using a randomly initialized uSim controller network. Make sure target trajectories look as desired. Otherwise, change the kinematics preprocessing parameters (e.g. trajectory_scaling, center) in the ``./configs/configs.txt`` file.
+   This will visualize the target trajectories using a randomly initialized muSim controller network. Make sure target trajectories look as desired. Otherwise, change the kinematic preprocessing parameters (e.g. trajectory_scaling, center) in the :doc:`task_information` file.
 
 4. **Visualize the musculoskeletal model trajectory and save the corresponding sensory feedback:**
 
